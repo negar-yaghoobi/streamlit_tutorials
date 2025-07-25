@@ -20,3 +20,8 @@ df = pd.DataFrame({
     'first column': [1, 2, 3, 4],
     'second column': [10, 20, 30, 40]
 })
+
+
+# display the dataframe
+st.write('here is the dataframe')
+st.write(df)
