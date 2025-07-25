@@ -13,3 +13,10 @@ st.title('Hello streamlit')
 
 # Display a simple text
 st.write('This is a simple text...')
+
+
+# create a simple dataframe
+df = pd.DataFrame({
+    'first column': [1, 2, 3, 4],
+    'second column': [10, 20, 30, 40]
+})
