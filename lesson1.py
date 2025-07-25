@@ -9,3 +9,7 @@ import numpy as np
 
 # Title of the aplication
 st.title('Hello streamlit')
+
+
+# Display a simple text
+st.write('This is a simple text...')
