@@ -35,3 +35,9 @@ import numpy as np
 
 
 ## widgets
+
+# get input from user
+name = st.text_input('enter your name: ')
+
+if name:
+    st.write(f'hello {name}')
