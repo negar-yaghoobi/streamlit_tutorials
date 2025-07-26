@@ -63,3 +63,7 @@ data = {
 df = pd.DataFrame(data)
 df.to_csv('sampledata.csv')
 st.write(df)
+
+
+# upload file
+uploaded_file  = st.file_uploader('choose a csv file', type= 'csv')
