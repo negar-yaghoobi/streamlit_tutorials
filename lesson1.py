@@ -46,3 +46,9 @@ if name:
 # slider
 age = st.slider('select your age: ', 0, 100, 25)
 st.write(f'your age is {age}.')
+
+
+# select box
+options = ['python', 'java', 'c++', 'js']
+choice = st.selectbox('choose your favorite language:', options)
+st.write(f'you selected {choice}.')
