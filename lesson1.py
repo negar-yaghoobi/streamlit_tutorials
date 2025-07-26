@@ -67,3 +67,7 @@ st.write(df)
 
 # upload file
 uploaded_file  = st.file_uploader('choose a csv file', type= 'csv')
+
+if uploaded_file is not None:
+    df=pd.read_csv(uploaded_file)
+    st.write(df)
