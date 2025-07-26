@@ -52,3 +52,13 @@ st.write(f'your age is {age}.')
 options = ['python', 'java', 'c++', 'js']
 choice = st.selectbox('choose your favorite language:', options)
 st.write(f'you selected {choice}.')
+
+
+# show dataframe
+data = {
+    'Name': ['ali', 'reza', 'zara', 'amir'],
+    'Aga': [20, 30, 40, 50],
+    'city': ['a', 'b', 'c', 'd']
+}
+df = pd.DataFrame(data)
+st.write(df)
