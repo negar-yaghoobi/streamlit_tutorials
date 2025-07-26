@@ -61,4 +61,5 @@ data = {
     'city': ['a', 'b', 'c', 'd']
 }
 df = pd.DataFrame(data)
+df.to_csv('sampledata.csv')
 st.write(df)
